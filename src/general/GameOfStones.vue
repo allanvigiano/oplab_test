@@ -4,7 +4,7 @@
 function gameOfStones(n) {
     
     if (checkP2(n % 7)) {
-        //I'm really impressed about this solution. I took close to 5 hours to found out this solution.
+        //I'm really impressed about this solution. I took close to 5 hours to found out.
         //After drawing the play from 0 to 16, I could saw the solution! It's so interesting!
         return 'Second';
     }
