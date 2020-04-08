@@ -8,11 +8,11 @@ Hi Oplab Team! This is my applicant test. Above you can access the solutions:
 - Frontend is [here](https://github.com/allanvigiano/oplab_frontend_test).
 - Backend is [here](#My-Backend-Test).
 
-Please, send me a message if you have some doubt at allanvigiano@gmail.com. Thank you all for giving me this opportunity
+Please send me a message at allanvigiano@gmail.com if you have any doubt. Thank you all for giving me this opportunity.
 
 ## My App
 You can run it following these steps:
-> Please, install PHP and NPM before.
+> Please, install PHP and Node.js before.
 1. Change to project folder: `cd oplab_test`
 2. Install libraries: `npm install`
 3. Run the PHP server: `php -S localhost:8000`
@@ -24,8 +24,8 @@ You can run it following these steps:
 function gameOfStones(n) {
     
     if (checkP2(n % 7)) {
-        //I'm really impressed about this solution. I took close to 5 hours to found out.
-        //After drawing the play from 0 to 16, I could saw the solution! It's so interesting!
+        //I'm really impressed about this solution. I took close to 5 hours to find out.
+        //After drawing the game from 0 to 16, I could see the solution! It's so interesting!
         return 'Second';
     }
     else {
@@ -34,7 +34,7 @@ function gameOfStones(n) {
 
 }
 function checkP2(board) {
-    //When the player leave 0 or 1 stone at the board, he winds.
+    //When the player leaves 0 or 1 stone at the board, he wins.
     if(board == 0 || board == 1) {
         return true;
     }
@@ -46,14 +46,14 @@ function checkP2(board) {
 ```
 ## My Backend Test
 - Suppose you're working with 3 people on a project. What would be **the** ideal software development process?
-> An Agile Methodology of software development would fit perfectly in this situation. From scratch, I would order features by importance and add value to the client (or product owner). One or more features would be inserted on each cycle that, at the end, would deliver a usable product. These little functionalities would be sliced on little activities to be developed. At this point, a Kanban board would suit to manage the cycle activities. Its process is simple and keep a global vision of the project. Each developer could catch an activity on the waiting line respecting the priority and keeping contact with the client to solve the doubts.
+> An Agile Methodology of software development would fit perfectly in this situation. From scratch, I would order features by importance and add value to the client (or product owner). One or more features would be inserted on each cycle that, at the end, would deliver a usable product. These small functionalities would be sliced on small activities to be developed. At this point, a Kanban board would suit to manage the cycle activities. Its process is simple and keep a global vision of the project. Each developer could catch an activity on the waiting line respecting the priority and keeping contact with the client to solve the doubts.
 - How do you think an entity relationship diagram for _Instagram_ would be like?
-> The ER diagram would have some entities like: User, Post, Comment. The users could make a relationship with each other making a friendship. A post needs an author user and can have some comments. A comment is related to a user and a post. Following, I’ll list some attributes of these entities:
+> The ER diagram would have some entities like: User, Post, Comment. The users could make a relationship with each other creating a friendship. A post needs an author user and can have some comments. A comment is related to a user and a post. Following, I’ll list some attributes of these entities:
 User: name, username, email, birthday, phone.
-Post: date, author, midia (photo/video), text, local, user.
+Post: date, author, media (photo/video), text, local, user.
 Comment: text, date, post, user.
 - Now that you have imagined the ER diagram, **how** would you build _Instagram_ from scratch?
->At first, I would make a prototype that will evolve incrementally until minimum product launch. I would start the app from the user register and a simple login screen. Then I would develop a feature to create a post and a user profile preview. Every feature must be validated from users to get some tips and suggestions. On each iteration I would deliver a functional app and I would repeat the process until it hit the minimum product to launch. In my opinion, this minimum must have a secure login, user profile register, connect to a friend and timeline reading. 
+>At first, I would make a prototype that will evolve incrementally until minimum product to launch. I would start the app from the user register and a simple login screen. Then I would develop a feature to create a post and a user profile preview. Every feature must be validated from users to get some tips and suggestions. On each iteration I would deliver a functional app and I would repeat the process until it hits the minimum product to launch. In my opinion, this minimum product must have a secure login, user profile register, a way to connect to a friend and timeline reading. 
 
 ### Intro
 
